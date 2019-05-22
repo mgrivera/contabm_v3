@@ -1,0 +1,22 @@
+
+{
+    "sqlServer_db_contab_host": "SQL7002.site4now.net",
+    "sqlServer_db_contab_port": 1433,
+    "sqlServer_db_contab_dbName": "DB_A4654C_dbContabArsa",
+    "sqlServer_db_contab_userName": "DB_A4654C_dbContabArsa_admin",
+    "sqlServer_db_contab_userPwd": "NeiraIsabel_02",
+
+    "galaxy.meteor.com": { 
+        "env": { 
+            "MONGO_URL": "mongodb://scrwebm_user:isabel@cluster0-shard-00-00-lwzxe.mongodb.net:27017,cluster0-shard-00-01-lwzxe.mongodb.net:27017,cluster0-shard-00-02-lwzxe.mongodb.net:27017/contabm_arsa?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"   
+        }
+    }, 
+
+    "public": {
+        "collectionFS_path_templates": "c:/contabm_files/templates",
+        "collectionFS_path_tempFiles": "c:/contabm_files/temp",
+        "contabSysNet_app_address": "http://localhost:13515", 
+
+        "dropBox_appToken": "erNRpVm4qyAAAAAAAAAAGcm7fIITYjGeBNDCLfezEUQMzlRj6cjAC9RzeyRrJnm7"
+    }, 
+}

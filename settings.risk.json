@@ -1,0 +1,12 @@
+
+{
+    "sqlServer_db_contab_host": "localhost",
+    "sqlServer_db_contab_port": 1433,
+    "sqlServer_db_contab_dbName": "dbContabRisk",
+    "sqlServer_db_contab_userName": "sa",
+    "sqlServer_db_contab_userPwd": "isabel",
+
+    "public": {
+        "contabSysNet_app_address": "http://localhost:13515"
+    }
+}
