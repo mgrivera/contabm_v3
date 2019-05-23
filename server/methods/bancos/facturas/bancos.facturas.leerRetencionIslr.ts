@@ -1,7 +1,7 @@
 
 
 import SimpleSchema from 'simpl-schema';
-import { sequelize } from 'server/sqlModels/_globals/_loadThisFirst/_globals';
+import { sequelize } from '../../../../server/sqlModels/_globals/_loadThisFirst/_globals'; 
 
 import { UnidadTributaria } from 'imports/collections/bancos/unidadTributaria';
 import { Proveedores_sql } from '../../../imports/sqlModels/bancos/proveedores'; 

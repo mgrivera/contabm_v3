@@ -1,15 +1,9 @@
 
 
-
-import { sequelize } from '../../../server/sqlModels/_globals/_loadThisFirst/_globals'; 
-import * as moment from 'moment';
 import { ParametrosNomina_sql } from '../../../server/imports/sqlModels/nomina/parametros/parametrosNomina'; 
-import { Parametros_Nomina_SalarioMinimo_sql } from '../../../server/imports/sqlModels/nomina/parametros/salarioMinimo'; 
-
 import { CompaniaSeleccionada } from '../../../imports/collections/companiaSeleccionada';
 import { Companias } from '../../../imports/collections/companias';
 
-import * as AppGlobalValues from '../../../imports/globals/globalValues'; 
 import '../../../imports/globals/tsDeclares'; 
 
 Meteor.methods(
@@ -82,7 +76,6 @@ Meteor.methods(
             })
         }
 
-        
         return {
             error: false, 
             message: `Ok, los valores para los parámetros de la nómina han sido leídos. Ahora Ud. puede modificarlos y hacer un click en Grabar.`,

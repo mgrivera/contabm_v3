@@ -3,7 +3,6 @@
 import * as moment from 'moment';
 import { TimeOffset } from '../../../../globals/globals'; 
 import SimpleSchema from 'simpl-schema';
-import { sequelize } from '../../../sqlModels/_globals/_loadThisFirst/_globals';
 
 import { InventarioActivosFijos_sql } from '../../../imports/sqlModels/contab/inventarioActivosFijos'; 
 import { Meteor } from 'meteor/meteor';

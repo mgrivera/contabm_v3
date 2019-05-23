@@ -1,12 +1,9 @@
 
 
-
-import { sequelize } from '../../../server/sqlModels/_globals/_loadThisFirst/_globals'; 
 import * as moment from 'moment';
 import { DeduccionesNomina_sql } from '../../../server/imports/sqlModels/nomina/parametros/deduccionesNomina'; 
 import * as AppGlobalValues from '../../../imports/globals/globalValues'; 
 import '../../../imports/globals/tsDeclares'; 
-import { TimeOffset } from '../../../globals/globals'; 
 
 Meteor.methods(
 {

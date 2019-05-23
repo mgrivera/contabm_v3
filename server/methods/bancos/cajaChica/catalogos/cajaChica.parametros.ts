@@ -4,7 +4,6 @@
 
 import * as lodash from 'lodash'; 
 import SimpleSchema from 'simpl-schema';
-import { sequelize } from '../../../../sqlModels/_globals/_loadThisFirst/_globals';
 
 import { CajaChica_Parametros_sql } from '../../../../imports/sqlModels/bancos/cajasChicas'; 
 

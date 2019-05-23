@@ -1,12 +1,10 @@
 
 
-import { sequelize } from '../../../server/sqlModels/_globals/_loadThisFirst/_globals'; 
 import * as moment from 'moment';
 import * as lodash from 'lodash'; 
 import { Nomina_DefinicionAnticipos_sql, Nomina_DefinicionAnticipos_Empleados_sql } from '../../../server/imports/sqlModels/nomina/parametros/definicionAnticipos1raQuincena'; 
 import * as AppGlobalValues from '../../../imports/globals/globalValues'; 
 import '../../../imports/globals/tsDeclares'; 
-import { TimeOffset } from '../../../globals/globals'; 
 
 Meteor.methods(
 {

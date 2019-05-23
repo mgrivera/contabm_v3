@@ -2,7 +2,6 @@
 import { sequelize } from '../../../server/sqlModels/_globals/_loadThisFirst/_globals';
 import * as numeral from 'numeral';
 import * as lodash from 'lodash'; 
-import SimpleSchema from 'simpl-schema';
 
 import { Monedas } from '../../../imports/collections/monedas';
 import { Monedas_sql } from '../../imports/sqlModels/monedas';

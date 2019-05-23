@@ -1,10 +1,7 @@
 
 
-import { sequelize } from '../../../server/sqlModels/_globals/_loadThisFirst/_globals'; 
-import * as moment from 'moment';
 import * as lodash from 'lodash'; 
 import { VacacPorAnoGenericas_sql, VacacPorAnoParticulares_sql } from '../../../server/imports/sqlModels/nomina/parametros/cantidadDiasVacacionesPorAno'; 
-import * as AppGlobalValues from '../../../imports/globals/globalValues'; 
 import '../../../imports/globals/tsDeclares'; 
 
 Meteor.methods(

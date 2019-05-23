@@ -1,8 +1,6 @@
 
 
-import { sequelize } from '../../../sqlModels/_globals/_loadThisFirst/_globals';
 import * as moment from 'moment';
-import * as lodash from 'lodash';
 import SimpleSchema from 'simpl-schema';
 import { TimeOffset } from '../../../../globals/globals'; 
 
