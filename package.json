@@ -40,7 +40,7 @@
     "react-swipeable-views": "0.13.1",
     "react2angular": "4.0.4",
     "save-as": "0.1.8",
-    "sequelize": "4.0.0",
+    "sequelize": "5.15.1",
     "simpl-schema": "0.3.2",
     "tedious": "1.14.0",
     "typeface-roboto": "0.0.54",
