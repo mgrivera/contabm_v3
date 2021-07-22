@@ -45,7 +45,7 @@
     "tedious": "1.14.0",
     "typeface-roboto": "0.0.54",
     "written-number": "^0.8.1",
-    "xlsx": "0.9.13",
+    "xlsx": "0.17.0",
     "xlsx-injector": "0.0.3"
   },
   "devDependencies": {
